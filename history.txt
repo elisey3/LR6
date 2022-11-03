@@ -1,0 +1,68 @@
+  601  git clone https://github.com/elisey3/LR6
+  602  cd ./LR6
+  603  git config user.name "4117 Eliseeva D.D."
+  604  git config user.email "darya.eliseeva.3@gmail.com"
+  605  touch text.txt
+  606  ls text.txt
+  607  git add text.txt
+  608  git commit -m "first commit"
+  609  git push https://github.com/elisey3/LR6
+  610  git branch -a
+  611  git checkout branch1
+  612  git pull
+  613  git branch -a
+  614  git checkout master
+  615  git log -a
+  616  git log --all
+  617  git merge branch1
+  618  git add mergefile.txt
+  619  git commite -m "fix conflict"
+  620  git commit -m "fix conflict"
+  621  git push https://github.com/elisey3/LR6
+  622  git branch -d branch1
+  623  git push origin -d branch1
+  624  touch "console log"
+  625  git add "console log"
+  626  git commit -m "create console log"
+  627  git push git https://github.com/elisey3/LR6
+  628  git push https://github.com/elisey3/LR6
+  629  touch delete.txt
+  630  ls delete.txt
+  631  git add delete.txt
+  632  git commit -m "delete commit"
+  633  git log
+  634  git reset --hard HEAD~
+  635  git log
+  636  git push https://github.com/elisey3/LR6
+  637  git branch result
+  638  git branch
+  639  git checkout result
+  640  git push https://github.com/elisey3/LR6
+  641  git branch -a
+  642  git add ./image
+  643  git add README.md
+  644  git commit -m "process commit"
+  645  git push https://github.com/elisey3/LR6
+  646  git branch
+  647  git branch -a
+  648  git log -all
+  649  git log --all
+  650  touch history.txt
+  651  ls history.txt
+  652  git add history.txt
+  653  git commit -m "process 2 commit"
+  654  git push https://github.com/elisey3/LR6
+  655  git log --all
+  656  git add ./image
+  657  git add README.md
+  658  git add "console log.txt"
+  659  git commit -m "process 3"
+  660  git push https://github.com/elisey3/LR6
+  661  git pull
+  662  git pull
+  663  git pull https://github.com/elisey3/LR6
+  664  git branch -a
+  665  git pull https://github.com/elisey3/LR6 origin/result
+  666  git pull https://github.com/elisey3/LR6 result
+  667  git log --all
+  668  git log --all
