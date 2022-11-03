@@ -1,14 +1,3 @@
-# LR6
-
-Лабораторная работа №6
-
-## Цель лаболаторной работы
-
-изучение базовых возможностей системы управления версиями, опыт работы с Git Api, опыт работы с локальным и удаленным репозиторием.
-
-## Команды терминала
-
-```sh
 Last login: Thu Nov  3 23:37:00 on ttys000
 darya@darya-mac git 6 % git clone https://github.com/elisey3/LR6
 Cloning into 'LR6'...
@@ -305,7 +294,7 @@ darya@darya-mac LR6 % git branch -a
   remotes/origin/master
   remotes/origin/result
 darya@darya-mac LR6 % git log -all
-error: switch `l` expects a numerical value
+error: switch `l' expects a numerical value
 darya@darya-mac LR6 % git log --all
 commit 665df61906efbc58cbe4d669f51c9515484bf0fc (HEAD -> result)
 Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
@@ -429,91 +418,3 @@ Date:   Sat Nov 21 19:58:20 2020 +0300
 
     Initial commit
 darya@darya-mac LR6 % 
-```
-
-## Ход работы
-
-* Клонируем репозиторий и настраиваем профиль
-    ![(рис 0)](./image/0.png)
-* Скачиваем вторую ветку
-    ![(рис 1)](./image/1.png)
-* Выводим всю историю
-    ![(рис 2)](./image/2.png)
-* Сливаем 2 ветки в одну
-    ![(рис 3)](./image/3.png)
-* Удаляем вторую ветку
-    ![(рис 4)](./image/4.png)
-* Создаем комит, который будем удалять
-    ![(рис 5)](./image/5.png)
-    пакпка до
-    ![(рис 6)](./image/6.png)
-* Удаляем этот комит
-    ![(рис 7)](./image/7.png)
-    папка после
-    ![(рис 8)](./image/8.png)
-* Создаем файл в удаленном репозитории и обновляем локальный
-     ![(рис 9)](./image/9.png)
-     ![(рис 10)](./image/10.png)
-* Финальная история изменений
-
-``` sh
-darya@darya-mac LR6 % git log --all
-commit 294949c77c20f876f3037bd0f27446498d06aaa3 (HEAD -> result)
-Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
-Date:   Fri Nov 4 00:32:04 2022 +0300
-
-    process 2 commit
-
-commit 665df61906efbc58cbe4d669f51c9515484bf0fc
-Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
-Date:   Fri Nov 4 00:29:16 2022 +0300
-
-    process commit
-
-commit 8cca1416d990e6e7ff317bb2a543e2c6135bfb9b (origin/result, origin/master, origin/HEAD, master)
-Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
-Date:   Fri Nov 4 00:10:16 2022 +0300
-
-    create console log
-
-commit 6dac5e0d62eb16023040d1e7c3319e1948e57389
-Merge: 9276287 0f9f50d
-Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
-Date:   Fri Nov 4 00:07:41 2022 +0300
-
-    fix conflict
-
-commit 927628796221ee1d6528ff34d7c5bb7b1a7d309f
-Author: 4117 Eliseeva D.D <darya.eliseeva.3@gmail.com>
-Date:   Fri Nov 4 00:00:04 2022 +0300
-
-    first commit
-
-commit 921f53b8d0cebf542c791cf31f04e9b792f385a4
-Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
-Date:   Sat Nov 21 20:09:49 2020 +0300
-
-    Обновление информации
-
-commit 0f9f50db68a6983b47398017545532cd0f992846
-Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
-Date:   Sat Nov 21 20:08:33 2020 +0300
-
-    Заполнил файл
-
-commit c08a654a63cfc3a7146b2b7015884d9020f5cbf5
-Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
-Date:   Sat Nov 21 20:02:16 2020 +0300
-
-    Файл создан пустым
-
-commit 3c6e9131bb47ed6009c28226afb0535c7f6d5964
-Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
-Date:   Sat Nov 21 19:58:20 2020 +0300
-
-    Initial commit
-```
-
-## Вывод
-
-Мы изучили базовые возможности системы управления версиями, получили опыт работы с Git Api и опыт работы с локальным и удаленным репозиторием.
